@@ -1,0 +1,98 @@
+*{
+    font-family: system-ui;
+  }
+  img{
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover; 
+    box-shadow: 1px 5px 10px 1px #524c50fb;
+    margin-bottom:20px; 
+  }
+  
+  .bloco{
+    background-color: #c7bdb6ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 10px #696666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+  
+  }
+  
+  .name {
+   margin: 20px;
+  }
+  
+  .bio {
+    margin: 20px;
+  }
+  .contact {
+    margin: 20px;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    background-color: transparent;
+    font-weight: 800;
+  }
+  
+  
+  
+  button{
+    width: 160px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: .3s;
+    color: rgb(248, 245, 245);
+    border: none;
+    background: rgba(167, 122, 105, 0.877);
+    background: linear-gradient(90deg, #405DE6 0%, #833AB4 36%, #C13584 85%);
+    box-shadow: 1px 3px 7px 1px rgb(34, 28, 28);
+  }
+  
+  button:hover{
+    background-color: rgb(54, 52, 52);
+    cursor: pointer;
+    transform: scale(1.04);
+  }
+  
+  .primeiro{
+    width: 400px;
+    border: none;
+    border-top: 2px solid#1f2022; 
+    margin: 2px 0; 
+  }
+  
+  .segundo{
+    width: 400px;
+    border: none;
+    border-top: 2px solid#0b0c0c; 
+    margin: 2px 0; 
+  }
+  
+  .terceiro{
+    width: 400px;
+    border: none;
+    border-top: 2px solid#151516; 
+    margin: 2px 0; 
+  }
+  
+  .quarto{
+    width: 400px;
+    border: none;
+    border-top: 2px solid#101011; 
+    margin: 2px 0; 
+  }
